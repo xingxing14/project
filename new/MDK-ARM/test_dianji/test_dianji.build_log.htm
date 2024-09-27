@@ -1,0 +1,200 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xing xing, xing, LIC=14HV2-9TQMX-PCQJ8-342W5-6SJ41-GDYPD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\MDK5.3.6\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Ñ§Ï°\»¥ÁªÍø+\Ftshaker\´úÂë\new\MDK-ARM\test_dianji.uvprojx
+Project File Date:  09/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5.3.6\ARM\ARMCC\Bin'
+Build target 'test_dianji'
+compiling hal_outputs.c...
+..\User\mpl\mllite\hal_outputs.h(7): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\hal_outputs.c: 0 warnings, 1 error
+compiling eMPL_outputs.c...
+..\User\mpl\eMPL-hal\eMPL_outputs.h(19): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\eMPL-hal\eMPL_outputs.c: 0 warnings, 1 error
+compiling data_builder.c...
+..\User\mpl\mllite\ml_math_func.h(10): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\data_builder.c: 0 warnings, 1 error
+compiling log_stm32.c...
+..\User\mpl\driver\stm32L\packet.h(24): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\driver\stm32L\log_stm32.c: 0 warnings, 1 error
+compiling message_layer.c...
+..\User\mpl\mllite\message_layer.h(10): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\message_layer.c: 0 warnings, 1 error
+compiling mpl.c...
+..\User\mpl\mllite\storage_manager.h(7): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\mpl.c: 0 warnings, 1 error
+compiling ml_math_func.c...
+..\User\mpl\mllite\ml_math_func.c(24): error:  #5: cannot open source input file "mlmath.h": No such file or directory
+  #include "mlmath.h"
+..\User\mpl\mllite\ml_math_func.c: 0 warnings, 1 error
+compiling results_holder.c...
+..\User\mpl\mllite\results_holder.h(7): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\results_holder.c: 0 warnings, 1 error
+compiling start_manager.c...
+..\User\mpl\mllite\start_manager.c(25): error:  #5: cannot open source input file "log.h": No such file or directory
+  #include "log.h"
+..\User\mpl\mllite\start_manager.c: 0 warnings, 1 error
+compiling storage_manager.c...
+..\User\mpl\mllite\storage_manager.h(7): error:  #5: cannot open source input file "mltypes.h": No such file or directory
+  #include "mltypes.h"
+..\User\mpl\mllite\storage_manager.c: 0 warnings, 1 error
+compiling inv_mpu.c...
+..\User\mpl\driver\eMPL\inv_mpu.h(53): error:  #169: expected a declaration
+  };
+..\User\mpl\driver\eMPL\inv_mpu.c(27): error:  #5: cannot open source input file "mpl.h": No such file or directory
+  #include "mpl.h"
+..\User\mpl\driver\eMPL\inv_mpu.c: 0 warnings, 2 errors
+compiling main_program.c...
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(133): warning:  #47-D: incompatible redefinition of macro "HSE_STARTUP_TIMEOUT"  (declared at line 91 of "../Core/Inc/stm32f1xx_hal_conf.h")
+  #define HSE_STARTUP_TIMEOUT   ((uint16_t)0x0500) /*!< Time out for HSE start up */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(135): warning:  #47-D: incompatible redefinition of macro "HSI_VALUE"  (declared at line 100 of "../Core/Inc/stm32f1xx_hal_conf.h")
+  #define HSI_VALUE    ((uint32_t)8000000) /*!< Value of the Internal oscillator in Hz*/
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(163): warning:  #47-D: incompatible redefinition of macro "__MPU_PRESENT"  (declared at line 50 of "../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h")
+   #define __MPU_PRESENT             0 /*!< Other STM32 devices does not provide an MPU */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(165): warning:  #47-D: incompatible redefinition of macro "__NVIC_PRIO_BITS"  (declared at line 51 of "../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h")
+  #define __NVIC_PRIO_BITS          4 /*!< STM32 uses 4 Bits for the Priority Levels    */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(166): warning:  #47-D: incompatible redefinition of macro "__Vendor_SysTickConfig"  (declared at line 52 of "../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h")
+  #define __Vendor_SysTickConfig    0 /*!< Set to 1 if different SysTick Config is used */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(175): error:  #101: "NonMaskableInt_IRQn" has already been declared in the current scope
+    NonMaskableInt_IRQn         = -14,    /*!< 2 Non Maskable Interrupt                             */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(176): error:  #101: "MemoryManagement_IRQn" has already been declared in the current scope
+    MemoryManagement_IRQn       = -12,    /*!< 4 Cortex-M3 Memory Management Interrupt              */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(177): error:  #101: "BusFault_IRQn" has already been declared in the current scope
+    BusFault_IRQn               = -11,    /*!< 5 Cortex-M3 Bus Fault Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(178): error:  #101: "UsageFault_IRQn" has already been declared in the current scope
+    UsageFault_IRQn             = -10,    /*!< 6 Cortex-M3 Usage Fault Interrupt                    */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(179): error:  #101: "SVCall_IRQn" has already been declared in the current scope
+    SVCall_IRQn                 = -5,     /*!< 11 Cortex-M3 SV Call Interrupt                       */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(180): error:  #101: "DebugMonitor_IRQn" has already been declared in the current scope
+    DebugMonitor_IRQn           = -4,     /*!< 12 Cortex-M3 Debug Monitor Interrupt                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(181): error:  #101: "PendSV_IRQn" has already been declared in the current scope
+    PendSV_IRQn                 = -2,     /*!< 14 Cortex-M3 Pend SV Interrupt                       */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(182): error:  #101: "SysTick_IRQn" has already been declared in the current scope
+    SysTick_IRQn                = -1,     /*!< 15 Cortex-M3 System Tick Interrupt                   */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(185): error:  #101: "WWDG_IRQn" has already been declared in the current scope
+    WWDG_IRQn                   = 0,      /*!< Window WatchDog Interrupt                            */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(186): error:  #101: "PVD_IRQn" has already been declared in the current scope
+    PVD_IRQn                    = 1,      /*!< PVD through EXTI Line detection Interrupt            */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(187): error:  #101: "TAMPER_IRQn" has already been declared in the current scope
+    TAMPER_IRQn                 = 2,      /*!< Tamper Interrupt                                     */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(188): error:  #101: "RTC_IRQn" has already been declared in the current scope
+    RTC_IRQn                    = 3,      /*!< RTC global Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(189): error:  #101: "FLASH_IRQn" has already been declared in the current scope
+    FLASH_IRQn                  = 4,      /*!< FLASH global Interrupt                               */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(190): error:  #101: "RCC_IRQn" has already been declared in the current scope
+    RCC_IRQn                    = 5,      /*!< RCC global Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(191): error:  #101: "EXTI0_IRQn" has already been declared in the current scope
+    EXTI0_IRQn                  = 6,      /*!< EXTI Line0 Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(192): error:  #101: "EXTI1_IRQn" has already been declared in the current scope
+    EXTI1_IRQn                  = 7,      /*!< EXTI Line1 Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(193): error:  #101: "EXTI2_IRQn" has already been declared in the current scope
+    EXTI2_IRQn                  = 8,      /*!< EXTI Line2 Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(194): error:  #101: "EXTI3_IRQn" has already been declared in the current scope
+    EXTI3_IRQn                  = 9,      /*!< EXTI Line3 Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(195): error:  #101: "EXTI4_IRQn" has already been declared in the current scope
+    EXTI4_IRQn                  = 10,     /*!< EXTI Line4 Interrupt                                 */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(196): error:  #101: "DMA1_Channel1_IRQn" has already been declared in the current scope
+    DMA1_Channel1_IRQn          = 11,     /*!< DMA1 Channel 1 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(197): error:  #101: "DMA1_Channel2_IRQn" has already been declared in the current scope
+    DMA1_Channel2_IRQn          = 12,     /*!< DMA1 Channel 2 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(198): error:  #101: "DMA1_Channel3_IRQn" has already been declared in the current scope
+    DMA1_Channel3_IRQn          = 13,     /*!< DMA1 Channel 3 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(199): error:  #101: "DMA1_Channel4_IRQn" has already been declared in the current scope
+    DMA1_Channel4_IRQn          = 14,     /*!< DMA1 Channel 4 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(200): error:  #101: "DMA1_Channel5_IRQn" has already been declared in the current scope
+    DMA1_Channel5_IRQn          = 15,     /*!< DMA1 Channel 5 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(201): error:  #101: "DMA1_Channel6_IRQn" has already been declared in the current scope
+    DMA1_Channel6_IRQn          = 16,     /*!< DMA1 Channel 6 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(202): error:  #101: "DMA1_Channel7_IRQn" has already been declared in the current scope
+    DMA1_Channel7_IRQn          = 17,     /*!< DMA1 Channel 7 global Interrupt                      */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(303): error:  #101: "ADC1_2_IRQn" has already been declared in the current scope
+    ADC1_2_IRQn                 = 18,     /*!< ADC1 and ADC2 global Interrupt                       */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(304): error:  #101: "USB_HP_CAN1_TX_IRQn" has already been declared in the current scope
+    USB_HP_CAN1_TX_IRQn         = 19,     /*!< USB Device High Priority or CAN1 TX Interrupts       */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(305): error:  #101: "USB_LP_CAN1_RX0_IRQn" has already been declared in the current scope
+    USB_LP_CAN1_RX0_IRQn        = 20,     /*!< USB Device Low Priority or CAN1 RX0 Interrupts       */
+D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h(306): error:  #101: "CAN1_RX1_IRQn" has already been declared in the current scope
+    CAN1_RX1_IRQn               = 21,     /*!< CAN1 RX1 Interrupt                                   */
+..\User\main_program.c: 5 warnings, 30 errors
+compiling inv_mpu_dmp_motion_driver.c...
+..\User\mpl\driver\eMPL\inv_mpu.h(53): error:  #169: expected a declaration
+  };
+..\User\mpl\driver\eMPL\inv_mpu_dmp_motion_driver.c(80): error:  #35: #error directive: Gyro driver is missing the system layer implementations.
+  #error  Gyro driver is missing the system layer implementations.
+..\User\mpl\driver\eMPL\inv_mpu_dmp_motion_driver.c: 0 warnings, 2 errors
+compiling servo.c...
+..\User\servo.h(1): error:  #37: the #endif for this directive is missing
+  #ifndef   _SERVO_H_
+..\User\math.h(28): warning:  #47-D: incompatible redefinition of macro "__ARMCLIB_VERSION"  (declared at line 22 of "D:\MDK5.3.6\ARM\ARMCC\Bin\..\include\stddef.h")
+  #define __ARMCLIB_VERSION 6150002
+..\User\servo.c(555): warning:  #870-D: invalid multibyte character sequence
+      printf("é¢œè‰²ç§ç±»ï¼?%c   ", color_type);
+..\User\servo.c(556): warning:  #870-D: invalid multibyte character sequence
+      printf("ä¸­å¿ƒxåæ ‡ï¼?%d   ",   center_x);
+..\User\servo.c(557): warning:  #870-D: invalid multibyte character sequence
+      printf("ä¸­å¿ƒyåæ ‡ï¼?%d\n   ", center_y);   
+..\User\servo.c(569): warning:  #870-D: invalid multibyte character sequence
+      printf("é¢œè‰²ç§ç±»ï¼?%c   ", color_type);
+..\User\servo.c(570): warning:  #870-D: invalid multibyte character sequence
+      printf("ä¸­å¿ƒxåæ ‡ï¼?%d   ",   center_x);
+..\User\servo.c(571): warning:  #870-D: invalid multibyte character sequence
+      printf("ä¸­å¿ƒyåæ ‡ï¼?%d\n   ", center_y);     
+..\User\servo.c: 7 warnings, 1 error
+"test_dianji\test_dianji.axf" - 45 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_test_dianji
+  D:\MDK5.3.6\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\MDK5.3.6\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
