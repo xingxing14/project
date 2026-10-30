@@ -1,0 +1,16 @@
+# Publish only reviewed showcase files from this directory.
+/*
+!/.gitignore
+!/README.md
+!/assets/
+/assets/*
+!/assets/images/
+/assets/images/*
+!/assets/images/robot-simulation.png
+!/assets/images/navigation-architecture.png
+!/assets/images/scene-pipeline.png
+!/assets/images/trajectory-generation.png
+!/assets/images/navigation-demo-01.png
+!/assets/images/navigation-demo-02.png
+!/assets/images/biped-locomotion-demo.png
+!/assets/images/real-robot-platform.png
