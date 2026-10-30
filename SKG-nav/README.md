@@ -1,7 +1,7 @@
 <h1 align="center">🤖 SKG-Nav</h1>
 
 <p align="center">
-  <strong>Semantic Knowledge-Guided Object-Goal Navigation<br>for Robots in Localized Scenes</strong>
+  <strong>Semantic Knowledge-Guided Object-Goal Navigation for Robots in Localized Scenes</strong>
 </p>
 <p align="center">面向本地化定制场景的语义知识引导机器人目标导航</p>
 
